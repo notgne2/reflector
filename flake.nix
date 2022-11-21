@@ -25,6 +25,8 @@
   };
 
   outputs = inputs: {
-    inherit inputs;
+    reflected = {
+      inherit (inputs) a b c d e f g h i j k l m n o p q r s t;
+    };
   };
 }
